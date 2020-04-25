@@ -6,7 +6,9 @@
 环境相关: 需要安装好node 和 gulp
 
 安装依赖
+
 npm install
+
 npm install gulp
 
 运行监听 保存文件即替换
@@ -15,5 +17,7 @@ gulp watch
 以$开头的中文直接替换 不以$开头的中文不替换
 
 示例用法 zh 转 python2
+
 根目录下建立一个.zh的文件名
+
 打开文件输入中文变量 保存后 自动生成 对应的 py
